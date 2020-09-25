@@ -1,0 +1,42 @@
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ background-color: #2980b9;
+ color: #ecf0f1;
+ font-size: 3em;
+ text-align: center;
+}
+
+main {
+ border: 1px solid #bdc3c7;
+ cursor: pointer;
+ max-width: 60%;
+ padding: 1.5rem 2rem;
+ position: relative;
+}
+
+.main_hover-up,
+.main_hover-down {
+ position: absolute;
+ top: -102%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ transform: scaleX(2);
+ transform-origin: 50% 100%;
+ background: red;
+ background: transparent;
+}
+
+.main_hover-up {
+ cursor: url(http://bit.ly/2DfPhcj), pointer;
+}
+
+.main_hover-down {
+ top: 102%;
+ cursor: url(http://bit.ly/2GaJR5q),
+  pointer;
+
+}

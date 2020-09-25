@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+}
+
+.re {
+  margin-right: 40px;
+}
+
+.em {
+  margin-right: 19px;
+}
+
+.shift {
+  margin-left: 106px;
+}
+
+body {
+  background-color: rgba(22, 170, 150, 0.45);
+  margin: 10px 300px 20px 300px;
+  box-sizing: border-box;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+#title {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+#survey-form {
+  margin-top: 40px;
+  background-color: rgb(245, 245, 245);
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+#name {
+}
+
+#email {
+}
+
+#number {
+}
+
+.row-tab {
+  display: block;
+}
+
+.row-label {
+  display: inline-block;
+}
+
+#name-label {
+  width: 40%;
+  display: inline-block;
+  text-align: right;
+}
+
+#email-label {
+  width: 40%;
+  text-align: right;
+  display: inline-block;
+}
+
+#number-label {
+  width: 50%;
+  text-align: right;
+  display: inline-block;
+}
+
+.select-input {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+}
+
+.label-select {
+  display: inline-block;
+  width: 39%;
+  text-align: right;
+}
+
+.labels-radio {
+  display: inline-block;
+  width: 39%;
+  text-align: right;
+  vertical-align: top;
+  padding: 4px;
+}
+
+.input-radio {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+}
+
+#submit {
+  margin-left: 350px;
+}
+
+#dropdown {
+}
+
+.checkbox-label {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+}
+
+.checkbox-input {
+  display: inline-block;
+  width: 48%;
+  text-align: left;
+}
+
+#checkbox {
+}
+
+.text-label {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+
+.textar {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+
+button {
+  padding: 10px;
+  background-color: dodgerblue;
+  opacity: 0.7;
+  margin: 5px 8px 5px 8px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+}

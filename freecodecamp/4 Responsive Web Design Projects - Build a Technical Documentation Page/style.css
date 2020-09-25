@@ -1,0 +1,36 @@
+#main-doc {
+ padding: 100px;
+ line-height: 35px;
+}
+
+.main-section {
+ text-align: justify;
+}
+
+#main_section_header {
+ font-size: 35px;
+ font-weight: 100;
+}
+
+#navbar {}
+
+.nav-link {}
+
+h1 {
+ font-size: 35px;
+ font-weight: 100;
+}
+
+p {}
+
+ul {
+ text-align: justify;
+}
+
+code {
+ text-align: center;
+ background-color: lightgrey;
+ opacity: 0.29;
+ color: black;
+ padding: 10px 20px 10px 20px;
+}

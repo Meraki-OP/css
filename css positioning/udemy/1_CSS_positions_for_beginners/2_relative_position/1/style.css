@@ -1,0 +1,29 @@
+p {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #eee;
+  height: 400px;
+}
+
+.box1 {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 10px;
+  top: 100px;
+  z-index: 2;
+}
+
+.box2 {
+  background-color: brown;
+  border: 10px solid blueviolet;
+  width: 170px;
+  height: 90px;
+  position: relative;
+  left: 15px;
+  top: 10px;
+  z-index: 1;
+}

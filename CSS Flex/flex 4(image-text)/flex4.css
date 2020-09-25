@@ -1,0 +1,10 @@
+body {
+ display: flex;
+ align-items: flex-start;
+ background-color: gray;
+ color: #fff;
+}
+
+img {
+ margin-right: 1em;
+}

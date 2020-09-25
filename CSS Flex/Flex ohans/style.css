@@ -1,0 +1,44 @@
+body {
+ display: flex;
+ justify-content: center;
+}
+
+ul {
+ display: flex;
+ margin: 20px;
+ padding: 0;
+ border: 2px solid red;
+ justify-content: center;
+ align-items: baseline;
+ align-content: flex-end;
+ flex-flow: row wrap;
+ flex-grow: 1;
+ /*flex-wrap: wrap;*/
+}
+
+li {
+ list-style: none;
+ width: 100px;
+ height: 100px;
+ background-color: #8cacea;
+ margin: 5px;
+ padding: 4px;
+
+}
+
+li:nth-child(odd) {
+ background-color: indianred;
+ order: 1;
+}
+
+li:nth-child(even) {
+ background-color: lightseagreen;
+}
+
+li:nth-child(2) {
+ order: 2;
+ height: 80px;
+ background-color: magenta;
+ align-self: flex-end;
+
+}

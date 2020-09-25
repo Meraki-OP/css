@@ -1,0 +1,38 @@
+body {}
+
+.reflection {
+ width: 500px;
+ height: 333px;
+ position: relative;
+ background: url('sea.png');
+ margin: 330px auto;
+ background-position: bottom;
+ background-size: cover;
+ box-shadow: 0px 50px 70px rgba(0, 0, 0, 0.3), 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reflection::after {
+ content: "";
+ background-image: inherit;
+ width: inherit;
+ height: 40%;
+ position: absolute;
+ bottom: -41%;
+ transform: scaleY(-1);
+ background-position: bottom;
+ background-size: cover;
+ opacity: .4;
+}
+
+.reflection::before {
+ content: "";
+ width: inherit;
+ background-image: inherit;
+ height: 40%;
+ position: absolute;
+ bottom: -41%;
+ transform: scaleY(-1);
+ background-position: bottom;
+ background-size: cover;
+ opacity: .4;
+}

@@ -1,0 +1,70 @@
+body,
+html {
+ height: 100vh;
+ margin: 0;
+ background-color: #ddd;
+ box-sizing: border-box;
+}
+
+#heading {
+ text-align: center;
+ margin: 0px;
+ box-sizing: border-box;
+ height: 100px;
+}
+
+.size {
+ font-size: 40px;
+ margin-bottom: 10px;
+}
+
+#picture {
+ background-color: whitesmoke;
+ text-align: center;
+}
+
+img {
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+ width: 60%;
+ padding-top: 20px;
+ margin-bottom: 10px;
+}
+
+.b-space {
+ padding-bottom: 10px;
+}
+
+.centers {
+ text-align: center;
+}
+
+ul {
+ width: 600px;
+ /*background-color: whitesmoke;*/
+ display: table;
+ /*this centers the element on the page*/
+ margin: 0 auto;
+ color: grey;
+ /*this will give space between the two statement lines*/
+ line-height: 2;
+ font-size: 19px;
+}
+
+/*text-emphasis: wrap;*/
+
+section {
+ margin: 20px;
+ margin-bottom: 40px;
+}
+
+.wrapper {
+ font-size: 20px;
+ width: 640px;
+ text-align: left;
+ margin: 0 auto;
+ margin-bottom: 10px;
+ color: grey;
+ line-height: 2;
+}

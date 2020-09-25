@@ -1,0 +1,15 @@
+body {
+ min-height: 100vh;
+ display: flex;
+ margin: 0;
+}
+
+aside {
+ background-color: teal;
+ width: 200px;
+}
+
+main {
+ background-color: tomato;
+ flex: 1 0 0;
+}

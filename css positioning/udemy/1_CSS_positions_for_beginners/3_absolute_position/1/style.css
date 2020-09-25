@@ -1,0 +1,44 @@
+p,
+body {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #ccc;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  top: 30px;
+  left: 40px;
+  margin: 0px auto;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background-color: blue;
+  position: absolute;
+  left: 99px;
+  z-index: 3;
+}
+
+.box2 {
+  background-color: rgb(232, 65, 238);
+  position: absolute;
+  left: 66px;
+  z-index: 2;
+}
+
+.box3 {
+  background-color: rgb(18, 138, 2);
+  position: absolute;
+  left: 33px;
+  z-index: 1;
+}
+.box4 {
+  background-color: rgb(249, 251, 119);
+  position: absolute;
+}

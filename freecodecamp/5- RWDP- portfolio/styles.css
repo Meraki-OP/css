@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* utitlities classes */
+.center-text {
+  text-align: center;
+}
+.noHP {
+  padding: 0px;
+  margin: 0px;
+}
+
+.resize {
+  width: 100%;
+  height: 100%;
+}
+
+#centerMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.794);
+  width: 100%;
+  min-height: 70vh;
+}
+#centerMe h1 {
+  font-size: 55px;
+  font-family: "Baloo Bhai 2", cursive;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+#centerMe h2 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Baloo Bhai 2", cursive;
+  color: red;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Main content starts here */
+#mainContent {
+  background-color: rgba(11, 67, 124, 0.863);
+  width: 100%;
+  height: auto;
+  padding-top: 1em;
+}
+#mainContent h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 3rem;
+  color: white;
+}
+#projects {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+.item-align {
+  width: 30%;
+  height: 460px;
+  margin: 10px;
+  padding: 10px;
+}
+.item-align a {
+  display: inline-block;
+}
+
+#myFooter {
+  background-color: rgba(0, 0, 0, 0.794);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+#myFooter h1 {
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+#myFooter p {
+  font-size: 1.2rem;
+  margin-top: 16px;
+}
+.flex-box {
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.flex-box a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: 2rem;
+}
+
+.flex-box a:hover {
+  color: red;
+}
+
+@media only screen and (max-width: 1200px) {
+  .item-align {
+    width: 43%;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  #centerMe h1 {
+    font-size: 35px;
+  }
+  #centerMe h2 {
+    font-size: 20px;
+  }
+  #mainContent h1 {
+    font-size: 2rem;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item-align {
+    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 0px;
+    min-width: 30em;
+    height: 28em;
+  }
+  #myFooter h1 {
+    font-size: 2rem;
+  }
+  #myFooter p {
+    font-size: 1rem;
+  }
+  .flex-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .flex-box a {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  #mainContent h1 {
+    font-size: 1.7rem;
+  }
+  .item-align {
+    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 0px;
+    min-width: 17em;
+    height: 23em;
+  }
+}
